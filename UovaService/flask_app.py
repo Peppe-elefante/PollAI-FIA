@@ -16,8 +16,9 @@ app = Flask(__name__)
 
 @app.route("/predizione", methods=['POST'])
 def hello():
-    #data = request.json
-    #df = pd.DataFrame(data, index=[0])
+    data = request.json
+    df = pd.DataFrame(data, index=[0])
+    print(df.head())
     response_value = 30
     return jsonify({"prediction": response_value})
 
