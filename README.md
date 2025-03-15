@@ -1,5 +1,6 @@
-#PollAI project Artificial Intelligence module
-##Questa repository contiene l'implementazione del progetto di FIA (fondamenti di intelligenza artificiale) ed è diviso in tre parti:
+# PollAI project Artificial Intelligence module
+
+## Questa repository contiene l'implementazione del progetto di FIA (fondamenti di intelligenza artificiale) ed è diviso in tre parti:
 
 **Eureka Server:** Service discovery che permette il collegamento con la web-app principale https://github.com/Peppe-elefante/PollAI
 
